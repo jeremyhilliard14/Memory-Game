@@ -46,12 +46,12 @@ button{
 
 .tile{
 	float: left;
-	width: 240px;
-	height: 240px;
+	width: 25%;
+	height: 30%;
 	box-sizing: border-box;
 	position: relative;
-	border: 5px solid #fff;
-
+	border: 3px solid #9fa0a0;
+	padding: 5px;
 }
 
 .back {
@@ -64,18 +64,25 @@ button{
 	background-color: #dcdee1;
 }
 
+.back:hover{
+	border: 2px dotted black;
+}
+
 .front{
 	position: absolute;
 	display: none;
 	width: 100%;
 	height: 100%;
 }
+
 .inside-tile{
 
 }
 
 .footer{
 	width: 100%;
-	background-color: #00a9ff;
+	background-color: #28aadc;
 	height: 100px;
+	float: left;
+
 }
