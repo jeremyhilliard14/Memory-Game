@@ -1,0 +1,171 @@
+body{
+	max-width: 1200px;
+	margin: auto;
+}
+
+img{
+	width: 100%;
+
+}
+
+#header{
+
+}
+
+#left-header{
+	float: left;
+	margin-left: 120px;
+}
+
+.header-text{
+	float: left;
+	color: #28aadc;
+	font-size: 20px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+#right-header{
+	float: right;
+	margin-right: 120px;
+}
+
+button{
+	float: right;
+	padding: 5px;
+	background-color: #ff3c50;
+	color: #fff;
+	font-size: 14px;
+	border-radius: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+#game-wrapper{
+	clear: both;
+	overflow: hidden;
+	position: relative;
+	height: 480px;
+	margin-left: 120px;
+}
+
+.tile1{
+	top: 0;
+	left: 0;
+	width: 240px;
+	height: 240px;
+	box-sizing: border-box;
+	position: absolute;
+	border: 3px solid #9fa0a0;
+	padding: 5px;
+}
+
+.tile2{
+	top: 0;
+	left: 240px;
+	width: 240px;
+	height: 240px;
+	box-sizing: border-box;
+	position: absolute;
+	border: 3px solid #9fa0a0;
+	padding: 5px;
+}
+
+.tile3{
+	top: 0;
+	left: 480px;
+	width: 240px;
+	height: 240px;
+	box-sizing: border-box;
+	position: absolute;
+	border: 3px solid #9fa0a0;
+	padding: 5px;
+}
+
+.tile4{
+	top: 0;
+	left: 720px;
+	width: 240px;
+	height: 240px;
+	box-sizing: border-box;
+	position: absolute;
+	border: 3px solid #9fa0a0;
+	padding: 5px;
+}
+
+.tile5{
+	bottom: 0;
+	left: 0;
+	width: 240px;
+	height: 240px;
+	box-sizing: border-box;
+	position: absolute;
+	border: 3px solid #9fa0a0;
+	padding: 5px;
+}
+
+.tile6{
+	bottom: 0;
+	left: 240px;
+	width: 240px;
+	height: 240px;
+	box-sizing: border-box;
+	position: absolute;
+	border: 3px solid #9fa0a0;
+	padding: 5px;
+}
+
+.tile7{
+	bottom: 0;
+	left: 480px;
+	width: 240px;
+	height: 240px;
+	box-sizing: border-box;
+	position: absolute;
+	border: 3px solid #9fa0a0;
+	padding: 5px;
+}
+
+.tile8{
+	bottom: 0;
+	left: 720px;
+	width: 240px;
+	height: 240px;
+	box-sizing: border-box;
+	position: absolute;
+	border: 3px solid #9fa0a0;
+	padding: 5px;
+}
+
+.back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url("../images/default/logo-bw.png") 50% 50% no-repeat;
+	background-color: #dcdee1;
+}
+
+.back:hover{
+	border: 2px dotted black;
+}
+
+.front{
+	position: absolute;
+	display: none;
+	width: 100%;
+	height: 100%;
+}
+
+.inside-tile{
+
+}
+
+.footer{
+	width: 100%;
+	background-color: #28aadc;
+	height: 100px;
+	float: left;
+
+}
