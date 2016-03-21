@@ -155,7 +155,7 @@ button{
 	position: absolute;
 	display: none;
 	width: 100%;
-	height: 100%;
+	height: 100%;5
 }
 
 .inside-tile{
@@ -169,3 +169,44 @@ button{
 	float: left;
 
 }
+
+.port-4{
+	float: left; 
+	width: 100%; 
+	position: relative; 
+	overflow: hidden; 
+	text-align: center; 
+	border: 4px solid rgba(255, 255, 255, 0.9); z-index: 10;
+}
+
+.port-4.tile1 .back{
+	transition: 0.5s; transform: rotateY(360deg) scale(1, 1);
+}
+
+.port-4.tile1 .front{
+	transform: rotateY(0deg) scale(0, 0); 
+	transition: 0.5s; 
+	opacity: 0; 
+	padding: 45px 20px 20px;
+}
+
+.port-4.tile1:hover .front{
+	transform: rotateY(360deg) scale(1, 1);  
+	opacity: 1;
+}
+
+.port-4.tile1:hover .back{
+	transform: rotateY(0deg) scale(0, 0);
+}
+
+/*.port-4.effect-2{z-index: 12;}
+.port-4.effect-2 .back{transition: 0.5s; transform: rotateX(360deg) scale(1, 1);}
+.port-4.effect-2 .front{transform: rotateX(0deg) scale(0, 0); transition: 0.5s; opacity: 0; padding: 45px 20px 20px;}
+.port-4.effect-2:hover .front{transform: rotateX(360deg) scale(1, 1);  opacity: 1;}
+.port-4.effect-2:hover .back{transform: rotateX(0deg) scale(0, 0);}
+
+.port-4.effect-3 .back{transition: 0.5s; transform: rotate(360deg) scale(1, 1);}
+.port-4.effect-3 .front{transform: rotate(0deg) scale(0, 0); transition: 0.5s; opacity: 0; padding: 45px 20px 20px;}
+.port-4.effect-3:hover .front{transform: rotate(360deg) scale(1, 1);  opacity: 1;}
+.port-4.effect-3:hover .back{transform: rotate(0deg) scale(0, 0);}
+*/
